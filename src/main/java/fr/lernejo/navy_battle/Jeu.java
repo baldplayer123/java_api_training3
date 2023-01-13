@@ -7,8 +7,8 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class Jeu {
-    public final Json Adversary;
-    public final Json json;
+    private final Json Adversary;
+    private final Json json;
 
 
 

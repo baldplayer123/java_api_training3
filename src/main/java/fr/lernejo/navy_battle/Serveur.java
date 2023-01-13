@@ -7,7 +7,7 @@ import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
 
 public class Serveur {
-    final HttpServer httpServer;
+    private final HttpServer httpServer;
     Serveur(int port) throws IOException {
 
         this.httpServer = HttpServer.create(new InetSocketAddress(port), 0);
